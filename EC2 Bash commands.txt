@@ -1,0 +1,17 @@
+# Activate prebuilt pytorch & conda environment
+> source activate pytorch
+> conda config --set auto_activate_base true
+# Create Dataset folder
+> mkdir dataset
+# Download dataset and extract
+> wget https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip
+> unzip -q dogImages.zip
+# Create training folder
+> mkdir TrainedModels
+# Create python file and copy 'ec2train1.py' code in it
+# Start paste mode by Typing ':set paste' without the quotation
+# Then right click, choose 'Paste'
+# So save and exit vim mode by typing ':wq!' without the quotation
+vim solution.py
+# Excaute Model
+> python solution.py
