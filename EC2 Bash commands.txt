@@ -15,3 +15,9 @@
 vim solution.py
 # Excaute Model
 > python solution.py
+# to redirect to output model
+> cd ./TrainedModels
+# to check the output model
+> ls
+# to get path
+> pwd
